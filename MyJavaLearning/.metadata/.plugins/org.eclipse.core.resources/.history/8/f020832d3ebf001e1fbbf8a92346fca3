@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+		String fileName ="C:\\Users\\ASHISH\\Desktop\\example.txt";
+		File textFile =new file(textFile);
+		Scanner in = new Scanner(textFile)
+
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		String[] texts = {"one","three","four"};
+		System.out.println(texts[3]);
+
+	}
+
+}

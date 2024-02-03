@@ -1,0 +1,11 @@
+import java.io.IOException;
+
+public class test {
+public void run() throws IOException {
+	int code =0;
+	if(code !=0) {
+		throw new IOException("Could not connected to server.");
+	}
+	System.out.println("Running Successfully");
+}
+}

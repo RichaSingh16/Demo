@@ -1,0 +1,12 @@
+4
+line one
+line two
+line three
+line four
+
+
+cat
+dog
+tiger
+lion
+zebra

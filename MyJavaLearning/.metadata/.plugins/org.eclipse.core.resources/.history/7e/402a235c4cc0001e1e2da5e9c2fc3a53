@@ -1,0 +1,16 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		String[] texts = {"one","three","four"};
+		try {
+		System.out.println(texts[3]);
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+		}
+
+	}
+
+

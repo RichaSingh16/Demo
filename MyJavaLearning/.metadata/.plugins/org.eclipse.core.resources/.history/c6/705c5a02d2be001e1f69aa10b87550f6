@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class DemoClass {
+
+	public static void main(String[] args) {
+		
+		Collection values = new ArrayList();
+		values.add(3);
+		values.add("richa");
+		values.add(7.3);
+		values.add(77);
+		//1-> fetch data using iterator
+		//2->enhance for loop
+		/*
+		 * Iterator i =values.iterator(); while(i.hasNext()) {
+		 * System.out.println(i.next()); }
+		 */
+		
+		//2->using enhance for loop	
+		for(Object i:values)
+		{
+			System.out.println(i);
+		}
+	}
+
+}

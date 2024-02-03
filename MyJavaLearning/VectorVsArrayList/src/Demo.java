@@ -1,0 +1,44 @@
+//Vector --> Dynamic Array
+
+//import java.util.Vector;
+
+import java.util.ArrayList;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> v =new ArrayList<Integer>();  //50% ,not ThreadSafe ,faster
+		
+//		Vector<Integer> v =new Vector<Integer>();  //100%  ,threadSafe ,slower
+//		v.add(12);
+//		v.add(22);
+//		v.add(43);
+//		v.add(11);
+//		v.add(32);
+//		v.add(49);
+//		v.add(72);
+//		v.add(54);
+//		v.add(47);
+//		v.add(92);
+//		v.add(72);
+//		v.add(83);
+//		v.add(811);
+//		v.add(132);
+//		v.add(149);
+//		v.add(172);
+//		v.add(90);
+//		v.add(88);
+//		System.out.println(v.capacity());
+
+
+
+for(int i:v)
+		{
+			System.out.println(i);
+		}
+		
+
+	}
+
+}

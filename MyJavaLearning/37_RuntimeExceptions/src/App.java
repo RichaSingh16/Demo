@@ -1,0 +1,34 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * //ArithmeticException 
+		 * int value =4;
+		 *  value=value/0;
+		 */
+		
+		
+		/*
+		 * //NullPointerException
+		 *  String text =null;
+		 *   System.out.println(text.length());
+		 */
+		
+		
+		/*	
+		 //ArrayIndexOutOfBoundsException
+		  * 
+		String[] texts = {"one","three","four"};
+		try {
+		System.out.println(texts[3]);
+		}
+		catch(Exception e) {
+			System.out.println(e.toString());
+		}
+		
+		*/
+	}
+
+}
